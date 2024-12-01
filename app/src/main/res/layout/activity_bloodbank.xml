@@ -1,0 +1,34 @@
+
+
+
+<TableLayout android:id="@+id/bloodTableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1"
+    android:padding="16dp"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Header Row -->
+    <TableRow android:background="@color/colorprimary">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blood Type"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:padding="8dp"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:textColor="@color/white" />
+    </TableRow>
+
+    <!-- Dynamic rows will be added here -->
+</TableLayout>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Donor">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="270dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginBottom="644dp"
+        android:text="@string/donate"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.237"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="66dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="208dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/blood2"
+        tools:ignore="ContentDescription" />
+
+    <EditText
+        android:id="@+id/editText18"
+        android:layout_width="282dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="44dp"
+        android:background="@color/gray"
+        android:hint="@string/name"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9"
+        tools:ignore="Autofill,TextFields" />
+
+    <EditText
+        android:id="@+id/editText20"
+        android:layout_width="282dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="11dp"
+        android:background="@color/gray"
+        android:hint="@string/location"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText19"
+        tools:ignore="Autofill,TextFields" />
+
+    <EditText
+        android:id="@+id/editText21"
+        android:layout_width="282dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="11dp"
+        android:background="@color/gray"
+        android:hint="@string/blood_type"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText20"
+        tools:ignore="Autofill,TextFields" />
+
+    <EditText
+        android:id="@+id/editText22"
+        android:layout_width="282dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/gray"
+        android:hint="@string/age"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText21"
+        tools:ignore="Autofill,TextFields" />
+
+    <EditText
+        android:id="@+id/editText23"
+        android:layout_width="282dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="11dp"
+        android:background="@color/gray"
+        android:hint="@string/last_donated_date"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText22"
+        tools:ignore="Autofill,TextFields" />
+
+    <EditText
+        android:id="@+id/editText24"
+        android:layout_width="282dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:background="@color/gray"
+        android:hint="@string/phone_number"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText23"
+        tools:ignore="Autofill,TextFields" />
+
+    <EditText
+        android:id="@+id/editText25"
+        android:layout_width="282dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/gray"
+        android:hint="@string/email"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText24"
+        tools:ignore="Autofill,TextFields" />
+
+    <EditText
+        android:id="@+id/editText26"
+        android:layout_width="282dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/gray"
+        android:hint="@string/donate_date"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText25"
+        tools:ignore="Autofill,MissingConstraints,TextFields" />
+
+    <EditText
+        android:id="@+id/editText19"
+        android:layout_width="282dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="13dp"
+        android:background="@color/gray"
+        android:hint="@string/nic"
+        android:importantForAutofill="no"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText18"
+        tools:ignore="TextFields" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="@color/colorprimary"
+        android:text="@string/submit"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header_background"
+        android:padding="12dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/textusername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/about_us"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Title Section -->
+
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/img_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/baseline_supervised_user_circle_24"
+        android:contentDescription="@string/app_logo"
+        android:layout_gravity="center"
+        android:paddingBottom="25dp"
+        android:paddingTop="20dp"/>
+
+    <!-- Description Section -->
+
+    <!-- Mission Section -->
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        android:lineSpacingExtra="4dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="25dp"
+        android:text="@string/our_mission_is_to_connect_donors_with_those_in_need_of_blood_making_blood_donation_simpler_and_more_accessible_for_everyone"
+        android:textColor="#333333"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/mission_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/our_mission"
+        android:textColor="#FF0000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp"
+        android:paddingTop="20dp"/>
+
+    <TextView
+        android:id="@+id/mission_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/to_save_lives_by_increasing_blood_donation_awareness_and_connecting_donors_with_those_in_need_through_technology"
+        android:textColor="#333333"
+        android:textSize="18sp"
+        android:lineSpacingExtra="4dp"
+        android:paddingBottom="25dp"
+        android:paddingTop="20dp"/>
+
+    <!-- Contact Information -->
+    <TextView
+        android:id="@+id/contact_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contactus"
+        android:textColor="#FF0000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="8dp"
+        android:paddingTop="20dp"/>
+
+    <TextView
+        android:id="@+id/contact_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email_contact_blooddropapp_com"
+        android:textColor="#333333"
+        android:textSize="18sp"
+        android:paddingBottom="4dp"
+        android:paddingTop="20dp"/>
+
+    <!-- Social Media Links (Optional) -->
+    <TextView
+        android:id="@+id/contact_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:text="@string/phone_94_779_426_462"
+        android:textColor="#333333"
+        android:textSize="18sp"
+        android:paddingTop="20dp"/>
+
+
+</LinearLayout>

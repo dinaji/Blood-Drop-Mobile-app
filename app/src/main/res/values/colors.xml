@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#F5004F</color>
+    <color name="gray">#C7C8CC</color>
+    <color name="colorprimary">#FF0000</color>
+    <color name="status_available">#4CAF50</color> <!-- Green -->
+    <color name="status_not_available">#F44336</color> <!-- Red -->
+</resources>

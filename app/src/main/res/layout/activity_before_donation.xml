@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutheader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header_background"
+        android:padding="12dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TextView
+            android:id="@+id/textusername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Before Your Donation"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Title Section -->
+
+    <ScrollView
+        android:id="@+id/mainScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/headerbar"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <!-- Logo -->
+            <ImageView
+                android:id="@+id/img_logo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:contentDescription="@string/app_logo"
+                android:paddingTop="20dp"
+                android:paddingBottom="25dp"
+                android:src="@drawable/baseline_calendar_month_24" />
+
+    <!-- Description Section -->
+    <!-- Mission Section -->
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="8dp"
+        android:text="Make an Appointment"
+        android:textColor="#FF0000"
+        android:textSize="22sp"
+        android:paddingLeft="60dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        android:lineSpacingExtra="4dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="25dp"
+        android:text="Select a donation type and find a convenient time that works best for you"
+        android:textColor="#333333"
+        android:textSize="20sp" />
+
+    <ImageView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/baseline_food_bank_24"
+        android:contentDescription="@string/app_logo"
+        android:layout_gravity="center"
+        android:paddingBottom="25dp"
+        android:paddingTop="20dp"/>
+
+    <!-- Description Section -->
+    <!-- Mission Section -->
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingBottom="8dp"
+        android:text="@string/get_the_dish_on_nutrition"
+        android:textColor="#FF0000"
+        android:textSize="22sp"
+        android:paddingLeft="60dp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        android:lineSpacingExtra="4dp"
+        android:paddingTop="20dp"
+        android:paddingBottom="25dp"
+        android:text="@string/have_iron_rich_foods_such_as_red_meat_fish_poultry_beans_spinach_iron_fortified_cereals_or_raisins"
+        android:textColor="#333333"
+        android:textSize="20sp" />
+
+            <ImageView
+
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/baseline_bed_24"
+                android:contentDescription="@string/app_logo"
+                android:layout_gravity="center"
+                android:paddingBottom="25dp"
+                android:paddingTop="20dp"/>
+
+            <!-- Description Section -->
+            <!-- Mission Section -->
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingBottom="8dp"
+                android:text="Be Well Rested and Hydrate"
+                android:textColor="#FF0000"
+                android:textSize="20sp"
+                android:paddingLeft="60dp"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="138dp"
+                android:lineSpacingExtra="4dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="25dp"
+                android:text="Get a good night's sleep the night before your donation, eat healthy foods and drink extra liquids."
+                android:textColor="#333333"
+                android:textSize="17sp" />
+
+
+    <!-- Contact Information -->
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
